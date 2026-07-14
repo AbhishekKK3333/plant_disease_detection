@@ -1,14 +1,14 @@
-# 🌿 Plant Disease Detection — Deep Learning Model
+#  Plant Disease Detection — Deep Learning Model
 
 A production-ready deep learning pipeline for detecting plant diseases from leaf images, using **EfficientNetB0** transfer learning. Supports 38 disease classes across 14 crop species.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 plant-disease-detection/
-├── plant_disease_colab.py   ← Full training script (run on Google Colab)
+├── plant_disease_colab.ipynb   ← Full training script (run on Google Colab)
 ├── app.py                   ← Flask web app for inference
 ├── requirements.txt         ← Python dependencies
 ├── Dockerfile               ← Docker container for cloud deployment
@@ -17,7 +17,7 @@ plant-disease-detection/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Step 1 — Train on Google Colab (Free GPU)
 
@@ -43,7 +43,7 @@ python app.py
 
 ---
 
-## ☁️ Cloud Deployment Options
+##  Cloud Deployment Options
 
 ### Option A — Render (Free Tier, Recommended)
 1. Push this project to GitHub
@@ -95,7 +95,7 @@ Use `serverless-python-requirements` + API Gateway for low-cost serverless infer
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 ```
 Input (224×224×3)
@@ -123,7 +123,7 @@ Output: Disease class probabilities
 
 ---
 
-## 🌱 Supported Diseases (38 Classes)
+##  Supported Diseases (38 Classes)
 
 | Crop       | Diseases Detected |
 |------------|-------------------|
@@ -143,7 +143,7 @@ Output: Disease class probabilities
 
 ---
 
-## 📊 Expected Performance
+##  Expected Performance
 
 | Metric        | Expected Score |
 |---------------|---------------|
@@ -155,7 +155,7 @@ Output: Disease class probabilities
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Endpoint  | Method | Description               |
 |-----------|--------|---------------------------|
@@ -184,7 +184,7 @@ Output: Disease class probabilities
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 - **Primary:** [PlantVillage on Kaggle](https://www.kaggle.com/datasets/emmarex/plantdisease)
 - **Alternative:** [TF Datasets plant_village](https://www.tensorflow.org/datasets/catalog/plant_village)
@@ -192,7 +192,7 @@ Output: Disease class probabilities
 
 ---
 
-## 📌 Requirements
+##  Requirements
 
 - Python 3.9+
 - TensorFlow 2.13+
